@@ -1,0 +1,38 @@
+
+.navbar, .footer{
+  margin-bottom: 0px;
+  background: #212121;
+  color: #fff;
+}
+
+#hero {
+  padding-top: 20px;
+  background: #424242;
+  color: white;
+  margin: 0;
+  background-image: url("../img/guatamare.jpg");
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+img {
+  border-radius: 50%;
+  width: 80px;
+}
+
+.alert {
+  margin-bottom: 0px !important;
+}
+.alert p{
+  color: black;
+}
+
+#location {
+  padding-left: 0px ;
+  padding-right: 0px ;
+}
+
+#ub-guatamare .btn, #ub-bdrio .btn {
+  margin-left: 15px !important;
+  padding-left: 2px;
+}
