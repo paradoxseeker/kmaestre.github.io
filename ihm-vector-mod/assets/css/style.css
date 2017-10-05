@@ -34,11 +34,8 @@
 }
 
 /* ------ ACERCADE ------ */
-.acercade {
-  height: 100vh;
-  display: none;
+.seccion {
   background-color: #424242;
-  background-image: url("../images/sobre.jpg");
   background-size: cover;
   background-blend-mode: overlay;
   background-position-x: 100%;
@@ -46,6 +43,16 @@
   padding: 40px 50px;
   border-top: 2px solid #424242;
   color: #fff;
+}
+
+.acercade {
+  background-image: url("../images/sobre.jpg");
+  display: none;
+  height: 100vh;
+}
+.carreras {
+  background-image: url("../images/carreras.jpg");
+  padding-top: 80px;
 }
 
 .acercade h3 {
@@ -65,10 +72,19 @@ footer {
 }
 
 footer .col-4 {
-  height: 25vh;
+  height: 100%;
 }
 
 .seccion-title {
   color: #28a745;
   padding: 20px 0;
+  font-weight: bold;
+}
+
+/* ------ MODAL ------ */
+.modal {
+  padding-top: 7%;
+}
+.modal-dialog {
+  max-width: 70%;
 }
