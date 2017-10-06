@@ -88,3 +88,16 @@ footer .col-4 {
 .modal-dialog {
   max-width: 70%;
 }
+
+.full-height {
+  height: 100vh;
+}
+
+#informatica {
+  background-image: url('../images/pc.jpg');
+  background-blend-mode: soft-light;
+}
+#acuacultura {
+  background-image: url('../images/acua.jpg');
+  background-blend-mode: soft-light;
+}
