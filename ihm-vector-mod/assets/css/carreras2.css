@@ -1,0 +1,99 @@
+.carrera {
+  color: #fff;
+  border-radius: 5px;
+  padding: 30px;
+  width: 90%;
+  margin: 5px auto;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #292929;
+}
+
+.carrera:hover {
+  color: #fff;
+  background-color: #404040;
+  text-decoration: none;
+}
+
+.carreras {
+  padding-top: 45px;
+  background-color: #292929;
+}
+
+@media screen and (min-width: 768px ) {
+  .carrera {
+    width: 45%;
+  }
+}
+
+.bg-control, .bg-control:hover {
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+#informatica {
+  background-image: url('../images/pc.jpg');
+}
+
+#acuacultura {
+  background-image: url('../images/acua.jpg');
+}
+
+#administracion {
+  background-image: url('../images/admin.jpg');
+}
+
+#biologia {
+  background-image: url('../images/biologia.jpg');
+}
+
+#contaduria {
+  background-image: url('../images/conta.jpg');
+}
+
+#eduintegral {
+  background-image: url('../images/educacion.jpg');
+}
+
+#eduingles {
+  background-image: url('../images/ingles.jpg');
+}
+
+#enfermeria {
+  background-image: url('../images/enfer.jpg');
+}
+
+#estadistica {
+  background-image: url('../images/estad.jpg');
+}
+
+#hoteleria {
+  background-image: url('../images/hotel.jpg');
+}
+
+#alimentos {
+  background-image: url('../images/tecno.jpg');
+}
+
+#turismo {
+  background-image: url('../images/turismo.jpg');
+}
+
+#tsuturisticas {
+  background-image: url('../images/tsutur.jpg');
+}
+
+#tsuhoteleras {
+  background-image: url('../images/tsuhot.jpg');
+}
+
+.expand {
+  height: 100vh;
+  width: 100vw;
+  border-radius: 0px !important;
+  border: 0;
+  padding-top: 50px;
+}
