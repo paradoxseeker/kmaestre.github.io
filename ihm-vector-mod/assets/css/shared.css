@@ -1,16 +1,6 @@
 /* ------ NAVBAR ------ */
 .navbar {
-  color: #fff;
-  background: transparent !important;
   font-weight: bold;
-}
-
-.navbar:hover {
-  background: #343a40 !important;
-}
-
-.nav-link {
-  color: white;
 }
 
 /* ------ FOOTER ------ */
@@ -32,9 +22,6 @@ footer .col-4 {
 }
 
 /* ------ MODAL ------ */
-.modal {
-  padding-top: 7%;
-}
 .modal-dialog {
   max-width: 70%;
 }

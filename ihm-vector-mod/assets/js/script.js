@@ -1,10 +1,6 @@
-function displayMore () {
-  let more = document.querySelectorAll('.seccion')
-  more.forEach(sec => {
-    sec.style.display = 'block'
-  })
-}
+let button = document.querySelector('.btn')
 
-let button = document.querySelector('.landing button')
-
-button.addEventListener('click', displayMore)
+button.addEventListener('click', () => {
+  let secc = document.querySelector('#acercade')
+  secc.style.display = 'block'
+})
