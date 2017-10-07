@@ -21,18 +21,12 @@
   background-color: #292929;
 }
 
-@media screen and (min-width: 768px ) {
-  .carrera {
-    width: 45%;
-  }
-}
-
 .bg-control, .bg-control:hover {
   background-blend-mode: overlay;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-x: 50%;
 }
-
 
 #informatica {
   background-image: url('../images/pc.jpg');
@@ -92,8 +86,22 @@
 
 .expand {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   border-radius: 0px !important;
   border: 0;
   padding-top: 50px;
+}
+
+@media screen and (min-width: 768px ) {
+  .carrera {
+    width: 45%;
+  }
+
+  .expand {
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    position: absolute;
+    padding: 70px 0 0 0;
+  }
 }

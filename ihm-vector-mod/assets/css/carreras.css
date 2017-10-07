@@ -19,6 +19,7 @@
   background-color: #292929;
   background-size: cover;
   background-blend-mode: soft-light;
+  background-position-x: center;
   color: #fff;
 }
 

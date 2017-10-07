@@ -1,0 +1,25 @@
+.seccion {
+  background-color: #424242;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-weight: bold;
+}
+
+form {
+  padding-top: 20px;
+  margin-top: 30px;
+  border-top: 2px solid #fff;
+}
+
+@media screen and (min-width: 768px) {
+  form {
+    border-top: none;
+    border-left: 2px solid #fff;
+  }
+  
+  .seccion {
+    height: 100vh;
+  }
+}
