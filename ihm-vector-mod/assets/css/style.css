@@ -1,14 +1,7 @@
 /* ------ LANDING ------ */
 .landing {
-  height: 100vh;
-  background-color: #424242;
-  padding-top: 100px;
   background-image: url("../images/principal.jpg");
-  background-size: cover;
-  background-blend-mode: overlay;
-  background-position-x: 100%;
-  background-position-y: 100%;
-  color: #fff;
+  padding-top: 70px;
 }
 
 .landing img {
@@ -19,30 +12,21 @@
 }
 
 /* ------ ACERCADE ------ */
-.seccion {
+.seccion, .landing {
   background-color: #424242;
   background-size: cover;
   background-blend-mode: overlay;
   background-position-x: 50%;
-  padding: 40px 50px;
-  border-top: 2px solid #424242;
   color: #fff;
+  min-height: 100vh;
 }
 
-.acercade {
+#acercade {
+  padding-top: 15%;
   background-image: url("../images/sobre.jpg");
-  display: none;
-  height: 100vh;
-}
-.carreras {
-  background-image: url("../images/carreras.jpg");
-  padding-top: 80px;
 }
 
-.acercade h3 {
-  margin-top: 20px;
-}
 
-.acercade .btn {
-  margin-top: 40px;
+.btn {
+  margin-bottom: 20px;
 }
