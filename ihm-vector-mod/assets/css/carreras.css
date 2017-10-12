@@ -1,30 +1,34 @@
-.full-height {
-  height: 100vh;
-}
-
-.izquierda > p{
-  border-left: 2px solid white;
-  padding: 10px;
-  margin-left: 20px;
-}
-
-.derecha > p{
-  border-right: 2px solid white;
-  padding: 10px;
-  margin-right: 20px;
-}
-
-.carrera, .carreras {
-  padding: 15% 10px;
-  background-color: #292929;
-  background-size: cover;
-  background-blend-mode: soft-light;
-  background-position-x: center;
+.carrera{
   color: #fff;
+  border-radius: 5px;
+  padding: 30px;
+  width: 100%;
+  margin: 5px auto;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #292929;
+}
+
+.carrera-ext {
+  color: white;
+  background-color: #292929;
+}
+
+.carrera:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 .carreras {
-  background-image: url('../images/carreras.jpg');
+  padding-top: 70px;
+  background-color: #292929;
+}
+
+.bg-control, .bg-control:hover {
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
 }
 
 #informatica {
@@ -81,4 +85,50 @@
 
 #tsuhoteleras {
   background-image: url('../images/tsuhot.jpg');
+}
+
+.expand {
+  font-weight: normal;
+  text-transform: none;
+  animation-name: expand;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+}
+
+.minimize {
+  animation-name: minimize;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes expand {
+  from {
+    opacity: 0;
+    color: rgba(0,0,0,0);
+  }
+  to {
+    opacity: 1;
+    color: #fff;
+  }
+}
+
+@keyframes minimize {
+  from {
+    opacity: 1;
+    color: #fff;
+  }
+  to {
+    opacity: 0;
+    color: rgba(0,0,0,0);
+  }
+}
+
+@media screen and (min-width: 768px ) {
+  .carrera {
+    width: 45%;
+  }
+
+  .expand {
+    padding: 0 50px;
+  }
 }
