@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/shared.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/js/script.js">
+</head>
+
+<body>
+
+  <!-- NAVBAR  -->
+  <nav id="navbar" class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <!-- <img src="assets/images/logo.png" alt=""> -->
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarExpand" aria-controls="navbarExpand"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarExpand">
+      <ul class="navbar-nav ml-auto mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" href="./">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./carreras">Carreras</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./carreras">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contacto">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- LANDING -->
+  <div class="container-fluid landing bg-control">
+    <div class="row">
+      <div class="col-12 text-center">
+        <img src="assets/images/logo.png" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="seccion-title">!Bienvenido!</h1>
+        <hr style="width: 30px; background: white; height: 3px;">
+        <a>&quot;Del Pueblo Venimos, Hacia el Pueblo Vamos&quot;</a>
+      </div>
+    </div>
+    <br><br><br>
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="#acercade" class="btn btn-outline-secondary">Conoce Más</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- SOBRE LA UNIVERSIDAD -->
+  <div id="acercade" class="container-fluid seccion">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="seccion-title">Sobre la Universidad</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-9 ml-auto mr-auto text-justify">
+        <p>La Universidad de Oriente fue creada por decreto el 21 de noviembre de 1958, siendo el Núcleo Nueva Esparta la extensión
+          respectiva para el estado homónimo. Inicia oficialmente sus funciones el 21 de Enero de 1960 con la apertura de
+          Cursos Básicos como su primera Escuela. En su concepción se define como un sistema de educación Superior al servicio
+          del país con objetivos comunes a las demás universidades venezolanas y del mundo. Asume la responsabilidad de la
+          educación Universitaria y desde su inicio se considera motor fundamental del desarrollo integral en toda la región
+          insular del país, en función de las condiciones, posibilidades y tendencias de desarrollo del Estado Nueva Esparta.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center" style="margin-top: 0.5%;">
+        <h3>Sedes</h3>
+      </div>
+      <div class="col-6 text-right" style="margin-top: 10px;">
+        <button class="btn btn-outline-dark btn-lg" data-toggle="modal" data-target="#bdrioModal">Boca de Río</button>
+      </div>
+      <div class="col-6 text-left" style="margin-top: 10px;">
+        <button class="btn btn-outline-dark btn-lg" data-toggle="modal" data-target="#guataModal">Guatamare</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+          <small>&copy; 2017, Maestre, Villagran Villarroel, "Terror del Simoncito".</small>
+      </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Modal Guatamare-->
+  <div class="modal fade" id="guataModal" tabindex="-1" role="dialog" aria-labelledby="guataModalTitle" aria-hidden="true">
+    <div class="modal-dialog ml-auto mr-auto" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title mr-auto ml-auto" id="guataModalTitle">Campus Guatamare</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-10 ml-auto mr-auto text-justify">
+              <p>Se encuentra ubicado en el poblado de Guatamare, Municipio Arismendí, entre la Ciudad de Porlamar y la Ciudad
+                de La Asunción. Este Campus es la sede principal de la institución universitaria en el Estado Nueva Esparta.
+                Aquí se encuentran los departamentos administrativos y académicos de la institución, así como la Biblioteca
+                Francisco Narváez y otras dependencias de la Universidad. A su vez, es aquí donde se dictan la mayoría de
+                las clases correspondientes a los estudios de pregrado ofrecidos por la institución.</p>
+            </div>
+            <div class="col-10 ml-auto mr-auto">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7833.155128787538!2d-63.8666035!3d10.9952241!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c318dd48668b061%3A0x44706c911fed8284!2sUniversidad+de+Oriente+-+Campus+de+Guatamare!5e0!3m2!1ses-419!2sve!4v1500948927452"
+                frameborder="0" style="border:0; width: 100%; height: 400px;" allowfullscreen=""></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Boca de Rio-->
+  <div class="modal fade" id="bdrioModal" tabindex="-1" role="dialog" aria-labelledby="bdrioModalTitle" aria-hidden="true">
+    <div class="modal-dialog ml-auto mr-auto" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title ml-auto mr-auto" id="bdrioModalTitle">Campus Boca de Río</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-10 ml-auto mr-auto text-justify">
+              <p>Se encuentra ubicado en el poblado de Boca de Río, Municipio Península de Macanao. En este Campus esta la sede
+                de la Escuela de Ciencias Aplicadas al Mar, la cual engloba la mayoría de prácticas y cursos dictados para
+                los estudios de pregrado de Licenciatura en Acuacultura, Licenciatura en Biología Marina y Licenciatura en
+                Tecnología de Alimentos.</p>
+            </div>
+            <div class="col-10 ml-auto mr-auto">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.9089769138413!2d-64.17774028507293!3d10.970242892190212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c31f98d9a5989ff%3A0x1951aa396c3c594b!2sUniversidad+de+Oriente!5e0!3m2!1sen!2sve!4v1507789284993"
+                frameborder="0" style="border:0; width: 100%; height: 400px;" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

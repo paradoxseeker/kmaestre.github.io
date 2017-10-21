@@ -1,0 +1,33 @@
+/* ------ LANDING ------ */
+.landing {
+  background-color: #333333;
+  background-image: url("../images/main.jpg");
+  padding-top: 8.5%;
+  color: white;
+  padding-bottom: 2%;
+}
+
+.landing img {
+  width: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  .landing {
+    padding-top: 20%;
+  }
+}
+
+/* ------ ACERCADE ------ */
+.bg-control {
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-position-x: 50%;
+  background-position-y: 45%;
+}
+
+#acercade {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #eeeeee;
+  /* background-image: url("../images/sobre.jpg"); */
+}
