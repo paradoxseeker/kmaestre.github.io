@@ -26,8 +26,9 @@
 }
 
 #acercade {
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding-top: 2%;
   padding-bottom: 2%;
-  background-color: #eeeeee;
   /* background-image: url("../images/sobre.jpg"); */
 }
